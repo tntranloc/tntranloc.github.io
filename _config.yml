@@ -2,9 +2,9 @@
 title: Nhu LT Tran
 email: tntranloc@gmail.com
 url: https://github.com/tntranloc/tntranloc.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Plant Genetics- Graphic Artist"
+description: "My Portfolio"
+keywords: "genetics, data science, phd, plants, graphics"
+skills: "Plant Genetics - Arts Hobbyist"
 meta_author: Tran  Nhu
 
 # Google webmaster tools
@@ -33,30 +33,26 @@ color:
 # Footer settings
 footer:
   copyright: Nhu LT Tran
-  location: Germancy
-  social: Around the Web
-  credits: Credits
+  location: Germany
+  social: Find me at
+  #credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
-
+  - title: linkedin
+    url: https://www.linkedin.com/in/nhu-tran-a8751890
+  - title: instagram
+    url: https://www.instagram.com/locthuynhu
+  - title: my arts shop
+    url: https://www.redbubble.com/people/elichakkari/shop?asc=u
+    
 # Postal address (add as many lines as necessary)
 address:
   - line: Biozentrum, University of Cologne
   - line: 50674 Cologne, Germany
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
