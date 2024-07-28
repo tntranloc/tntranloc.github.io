@@ -4,7 +4,7 @@ email: tntranloc@gmail.com
 url: https://github.com/tntranloc/tntranloc.github.io
 description: "My Portfolio"
 keywords: "genetics, data science, phd, plants, graphics"
-skills: "Plant Genetics - Hobbyist Artist"
+skills: "Plant Biology - Quantitative Genetics - Molecular Genetics - Hobbyist Digital Art"
 meta_author: Tran  Nhu
 
 # Google webmaster tools
@@ -27,8 +27,8 @@ disqus_shortname: myshortname
 color:
   primary: 899481 #80B3FF #18bc9c
   primary-rgb: "137, 148, 129" #"24,288,156" #"128,179,255"
-  secondary: A67D44 #2c3e50 #FD6E8A
-  secondary-dark: 8c6938 #233140 #A2122F
+  secondary: 5D1C34 #2c3e50 #FD6E8A
+  secondary-dark: 54192f #233140 #A2122F
 
 # Footer settings
 footer:
