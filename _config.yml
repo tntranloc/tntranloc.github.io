@@ -57,6 +57,8 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+future: true
+timezone: GMT+2
 
 #for posts
 defaults:
