@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 2
+modal-id: MSc 
 date: 2024-07-28
 img: seeds.png
 alt: image-alt
