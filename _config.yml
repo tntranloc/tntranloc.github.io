@@ -33,8 +33,8 @@ color:
 # Footer settings
 footer:
   copyright: Nhu LT Tran
-  location: Germany
-  social: Find me at
+  location: Current location
+  social: Find me around the web at
   #credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
