@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 1
+modal-id: PhD
 date: 2024-07-28
 img: lyrata.png
 alt: image-alt
