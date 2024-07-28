@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2024-07-28
 img: lyrata.png
 alt: image-alt
 project-date: October 2022 - now
