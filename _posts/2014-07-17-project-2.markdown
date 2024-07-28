@@ -1,11 +1,12 @@
 ---
 layout: default
-modal-id: MSc Thesis
+modal-id: 2
+title: MSc Thesis
 date: 2024-07-28
 img: seeds.png
 alt: image-alt
 project-date: June 2021
 workplace: Heinrich Heine University Düsseldorf
-skills: SNP calling (from FASTQ to VCF), GWAS, binomial regression
+skills: SNP calling (from raw to final), GWAS, (binomial) regression analysis
 description: In this project we characterised natural variation in heat-induced secondary dormancy using a collection of 362 European Arabidopsis thaliana accessions. We discovered how seed age modulates secondary dormancy and the associated quantitative trait loci. We also revealed a latitudinal pattern of secondary dormancy which reflects adaptation to heat and drough along the gradient. This study shows a complex adaptive mechanism helping plants undergoing future climate change. 
 ---
