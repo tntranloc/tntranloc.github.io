@@ -6,7 +6,7 @@ date: 2024-07-28
 img: brassica.png
 alt: image-alt
 project-date: December 2020
-workplace: iDiv, Leipzig
+workplace: German Centre for Integrative Biodiversity Research (iDiv), Leipzig, Germany
 skills: quantitative-PCR (lab to data), High-performance liquid chromatography, RNA extraction (roots)
 description: In this internship, with the great tutor of my supervisor at that time, Axel Touw, I got to explore different concepts of ecology and plant defense system to biotic factors, namely root fly and root-knot nematode. We looked at the gene expression profile as well as the changes in different glucosinolate compounds (secondary metabolites) at different time points of infestation/infection. Furthermore, we looked at how herbivores affect each other's performance via plant-mediated responses. Manscript is currently under review.
 ---
