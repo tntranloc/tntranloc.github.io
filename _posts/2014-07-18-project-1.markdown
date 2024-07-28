@@ -7,6 +7,6 @@ img: lyrata.png
 alt: image-alt
 project-date: October 2022 - now
 workplace: University of Cologne
-skills: quantitative genetics models using Bayesian approach, RNA-seq analysis (from FASTQ to final count), Differential expression analysis, Enrichment analysis, eQTL, programming in R, Bash, and Python. 
+skills: quantitative genetics models (Bayesian approach), RNA-seq analysis (from raw to final), Differential Expression and Enrichment analysis, eQTL
 description: We investigate the inheritance patterns of transcriptomic variation and epigentic variation within Arabidopsis lyrata populations, with a particular emphasis on understanding the role of non-additive variance. Arabidopsis lyrata is an obligate outcrossing species of Arabidopsis genus, allowing us to perform various quantitative breeding designs. This study can unravel how specific genetic elements are passed down and influence the future evolution of fitness traits. Our work lays a groundwork for leveraging molecular selection in breeding as well as the theory of adaptive evolution in nature.
 ---
