@@ -52,7 +52,7 @@ address:
   - line: 50674 Cologne, Germany
 
 # Credits content
-credits: 'Thanks to the creator of Freelancer Jekyll theme <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'My sincere thanks to the creator of this <a href="https://jekyllthemes.io/theme/freelancer-theme">Freelancer Jekyll Theme</a> upon which my website design is based. All images and illustrations on this website are my original work and shall be credited to me. '
 
 # Build settings
 markdown: kramdown
