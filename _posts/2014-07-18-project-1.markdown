@@ -3,7 +3,8 @@ layout: default
 modal-id: 1
 title: PhD Thesis
 date: 2024-07-28
-img: lyrata.png
+thumnail-img: lyrata.png
+modal-img: cabin.png
 alt: image-alt
 project-date: October 2022 - now
 workplace: University of Cologne, Germany
