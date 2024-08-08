@@ -54,7 +54,7 @@ address:
   - line: 50674 Cologne, Germany
 
 # Credits content
-credits: 'My sincere thanks to the creator of the <a href="https://jekyllthemes.io/theme/freelancer-theme">Freelancer Jekyll Theme</a> upon which my website design is based. All images and illustrations on this website are my original work and shall be credited to me. '
+credits: 'My thanks to the creator of the <a href="https://jekyllthemes.io/theme/freelancer-theme">Freelancer Jekyll Theme</a> upon which my website design is based. All images and illustrations on this website are my original work. '
 
 # Build settings
 markdown: kramdown
