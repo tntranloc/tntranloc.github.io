@@ -4,7 +4,7 @@ email: tntranloc@gmail.com
 url: https://github.com/tntranloc/tntranloc.github.io
 description: "My Portfolio"
 keywords: "genetics, data science, phd, plants, graphics"
-skills: "Plant Biology - Quantitative Genetics - Molecular Genetics - Hobbyist Digital Art"
+skills: "Plant Biology - Quantitative Genetics - Evolution - Hobbyist Digital Art/Violinist"
 meta_author: Tran  Nhu
 
 # Google webmaster tools
@@ -43,6 +43,8 @@ social:
     url: https://www.linkedin.com/in/nhu-tran-a8751890
   - title: instagram
     url: https://www.instagram.com/locthuynhu
+  - title: mastodon
+    url: https://mastodon.social/@locthuynhu
   - title: redbubble
     url: https://www.redbubble.com/people/elichakkari/shop?asc=u
     
