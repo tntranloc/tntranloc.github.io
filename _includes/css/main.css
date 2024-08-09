@@ -200,7 +200,7 @@ section.success {
     margin: 0 0 15px;
 }
 
-#portfolio .portfolio-item .portfolio-link .subtitle {
+#portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
@@ -218,7 +218,7 @@ section.success {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption. subtitle:hover {
+#portfolio .portfolio-item .portfolio-link .caption:hover {
     opacity: 1;
 }
 
