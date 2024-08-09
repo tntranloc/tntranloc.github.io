@@ -2,6 +2,7 @@
 layout: default
 modal-id: 1
 title: PhD Thesis
+subtitle: Dominance variance in transcriptome, methylome, and plant fitness in Arabidopsis lyrata populations
 date: 2024-07-28
 img: lyrata.png
 alt: image-alt
