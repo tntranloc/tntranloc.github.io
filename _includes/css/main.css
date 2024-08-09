@@ -222,7 +222,7 @@ section.success {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content .subtitle {
     position: absolute;
     top: 50%;
     width: 100%;
