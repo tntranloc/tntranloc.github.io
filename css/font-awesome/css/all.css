@@ -3794,8 +3794,7 @@ readers do not read off random characters that represent icons */
   content: "\f076"; }
 
 .fa-magnifying-glass::before {
-  content: "\f002";
-  display: none; }
+  content: "\f002"; }
 
 .fa-search::before {
   content: "\f002"; }
