@@ -3797,8 +3797,7 @@ readers do not read off random characters that represent icons */
   content: "\f002"; }
 
 .fa-search::before {
-  content: "\f002"; 
-  display: none; }
+  content: "\f002"; }
 
 .fa-magnifying-glass-arrow-right::before {
   content: "\e521"; }
@@ -3813,7 +3812,8 @@ readers do not read off random characters that represent icons */
   content: "\f688"; }
 
 .fa-magnifying-glass-location::before {
-  content: "\f689"; }
+  content: "\f689"; 
+  display: none; }
 
 .fa-search-location::before {
   content: "\f689"; }
