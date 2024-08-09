@@ -429,6 +429,11 @@ footer .footer-below {
     font-size: 3em;
 }
 
+.portfolio-modal .modal-content h4 {
+    margin: 0;
+    font-size: 2em;
+}
+
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
