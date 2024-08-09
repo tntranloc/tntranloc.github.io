@@ -218,7 +218,7 @@ section.success {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#portfolio .portfolio-item .portfolio-link .caption .subtitle:hover {
     opacity: 1;
 }
 
@@ -233,12 +233,12 @@ section.success {
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content .subtitle i {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content .subtitle h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content .subtitle h4 {
     margin: 0;
 }
 
