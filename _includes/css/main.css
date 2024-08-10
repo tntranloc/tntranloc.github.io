@@ -268,7 +268,7 @@ section.success {
       max-width: 49%;
     }
   }
-@media (min-width: 960px) {
+  @media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 32%;
       max-width: 32%;
