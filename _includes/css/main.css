@@ -421,11 +421,9 @@ footer .footer-below {
     min-height: 100%;
     border: 0;
     border-radius: 0;
-    text-align: justify;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-size: 1.5em;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -436,9 +434,15 @@ footer .footer-below {
 
 .portfolio-modal .modal-content h4 {
     margin: 0;
-    font-size: 2em;
+    font-size: 1.7em;
     text-transform: none;
     text-align: center;
+}
+
+.portfolio-modal .modal-content p {
+    margin: 0;
+    text-align: justify;
+    font-size: 1.5em;
 }
 
 .portfolio-modal .modal-content img {
