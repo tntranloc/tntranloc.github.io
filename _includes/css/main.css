@@ -270,8 +270,8 @@ section.success {
   }
 @media (min-width: 960px) {
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
-      flex: 1 0 48%;
-      max-width: 48%;
+      flex: 1 0 32%;
+      max-width: 32%;
     }
   } 
   /* A large grid might need four columns on widescreen layouts */
