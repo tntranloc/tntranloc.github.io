@@ -4,8 +4,8 @@ modal-id: 4
 title: BSc Internship
 subtitle: Glucosinolate allocation during root herbivory in Brassica rapa
 date: 2024-07-28
-img: brapa.png
-post-img: brassica.png
+img: brassica.png
+post-img: brapa.png
 alt: image-alt
 project-date: December 2020
 workplace: German Centre for Integrative Biodiversity Research (iDiv), Leipzig, Germany
