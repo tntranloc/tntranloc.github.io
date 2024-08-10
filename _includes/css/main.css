@@ -437,12 +437,13 @@ footer .footer-below {
     font-size: 1.7em;
     text-transform: none;
     text-align: center;
+    margin-top: 20px;
 }
 
 .portfolio-modal .modal-content p {
     margin: 0;
     text-align: justify;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .portfolio-modal .modal-content img {
