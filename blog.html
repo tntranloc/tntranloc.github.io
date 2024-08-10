@@ -1,23 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
-    <header>
-        <h1>Blog</h1>
-    </header>
-    <main>
-        <article>
-            <h2>First Blog Post</h2>
-            <p>This is the content of the first blog post.</p>
-        </article>
-    </main>
-    <footer>
-        <p>&copy; 2024 Your Name</p>
-    </footer>
-</body>
-</html>
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h1>Blog</h1>
+            <hr class="star-primary">
+            {% for post in site.posts %}
+                <div class="post">
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <p><small>Published on {{ post.date | date: "%B %d, %Y" }}</small></p>
+                    <p>{{ post.excerpt }}</p>
+                    <a href="{{ post.url }}" class="btn btn-primary">Read More</a>
+                    <hr>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
