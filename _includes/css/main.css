@@ -430,6 +430,7 @@ footer .footer-below {
 
 .portfolio-modal .modal-content h2 {
     margin: 0;
+    text-align: center;
     font-size: 3em;
 }
 
@@ -437,6 +438,7 @@ footer .footer-below {
     margin: 0;
     font-size: 2em;
     text-transform: none;
+    text-align: center;
 }
 
 .portfolio-modal .modal-content img {
