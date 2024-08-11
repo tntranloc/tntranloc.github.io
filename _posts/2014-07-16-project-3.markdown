@@ -3,7 +3,7 @@ layout: default
 modal-id: 3
 title: BSc Thesis
 date: 2024-07-28
-img: thaliana.png
+img: athaliana.png
 alt: image-alt
 project-date: May 2021
 workplace: Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben, Germany
