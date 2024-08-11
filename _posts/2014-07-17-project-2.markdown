@@ -3,7 +3,7 @@ layout: default
 modal-id: 2
 title: MSc Thesis
 date: 2024-07-28
-img: seeds.png
+img: dormancy.png
 alt: image-alt
 project-date: June 2021
 workplace: Heinrich Heine University Düsseldorf, Germany
