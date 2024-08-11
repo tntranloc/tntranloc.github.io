@@ -236,7 +236,7 @@ section.success {
 }
 
 .portfolio-item .portfolio-link:hover .caption {
-    background-color: rgba(186, 135, 104, 0.7); /* Slight shade of primary color */
+    background-color: rgba(186, 135, 104, 0.4); /* Slight shade of primary color */
     opacity: 1;
 }
 
@@ -248,6 +248,7 @@ section.success {
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
     margin-top: -12px;
+    font-size: 4rem;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3 {
