@@ -16,3 +16,27 @@
     </div>
 </header>
 
+
+
+<!-- Add this script before the closing body tag -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const text = "Hello, I am Nhu"; // The text you want to display
+    const typingElement = document.getElementById("typing-effect");
+    let index = 0;
+
+    function typeText() {
+        if (index < text.length) {
+            typingElement.innerHTML += text.charAt(index);
+            index++;
+            setTimeout(typeText, 100); // Adjust speed (in ms) of typing effect
+        }
+    }
+
+    typeText();
+});
+</script>
+
+</body>
+</html>
+
