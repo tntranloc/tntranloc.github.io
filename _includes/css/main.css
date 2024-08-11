@@ -521,18 +521,18 @@ footer .footer-below {
 .typing-animation {
     font-size: 2.5rem; /* Adjust the size as needed */
     font-weight: bold;
-    color: #fff; /* Adjust to preferred color */
+    color: #fff; /* Adjust to your preferred color */
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid; /* Cursor effect */
-    width: 0; /* Initial width for animation */
+    display: inline-block; /* Keep the text inline to avoid width issues */
     animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
 }
 
 /* Typing effect animation */
 @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
+    from { max-width: 0; }
+    to { max-width: 100%; }
 }
 
 /* Blinking caret animation */
