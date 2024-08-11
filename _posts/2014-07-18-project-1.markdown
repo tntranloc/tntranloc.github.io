@@ -4,7 +4,7 @@ modal-id: 1
 title: PhD Thesis
 subtitle: Dominance variance in transcriptome, methylome, and plant fitness in Arabidopsis lyrata populations
 date: 2024-07-28
-img: lyrata.png
+img: alyrata.png
 alt: image-alt
 project-date: October 2022 - now
 workplace: University of Cologne, Germany
