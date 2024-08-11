@@ -306,11 +306,6 @@ section.success {
     transition: all .3s ease-in-out;
 }
 
-.btn-outline:hover {
-    border: solid 2px #fff;
-    color: #{{ site.color.secondary.dark }};
-    background: #fff;
-}
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
