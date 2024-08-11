@@ -102,11 +102,13 @@ header .intro-text .name {
     font-family: Quicksand,Cabin,Lato,"Open Sans",sans-serif;
     font-size: 2em;
     font-weight: 700;
+    margin-top: 50px;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    margin-top: 30px;
 }
 
 
