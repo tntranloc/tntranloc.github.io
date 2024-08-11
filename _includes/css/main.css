@@ -173,16 +173,6 @@ header .intro-text .skills {
 }
 
 /* Retain or remove based on your design needs */
-section h2 {
-    margin: 0;
-    font-size: 3em;
-}
-
-section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
-}
-
 section {
     padding: 100px 0;
 }
