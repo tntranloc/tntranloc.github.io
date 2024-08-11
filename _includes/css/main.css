@@ -225,8 +225,18 @@ section.success {
     opacity: 0;
 }
 
+/* Ensure the caption-content is centered */
+.portfolio-item .portfolio-link .caption .caption-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the content */
+    text-align: center; /* Center the text horizontally */
+    z-index: 10; /* Ensure it appears above other content */
+}
+
 .portfolio-item .portfolio-link:hover .caption {
-    background-color: rgba(186, 135, 104, 0.15); /* Slight shade of primary color */
+    background-color: rgba(186, 135, 104, 0.7); /* Slight shade of primary color */
     opacity: 1;
 }
 
