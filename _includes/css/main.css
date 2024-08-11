@@ -78,7 +78,6 @@ hr.star-primary:after {
 
 .img-centered {
     margin: 0 auto;
-    border-radius: 20%; /* This makes the image round */
 }
 
 header {
