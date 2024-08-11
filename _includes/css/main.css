@@ -78,7 +78,7 @@ hr.star-primary:after {
 
 .img-centered {
     margin: 0 auto;
-    border-radius: 50%; /* This makes the image round */
+    border-radius: 20%; /* This makes the image round */
 }
 
 header {
@@ -95,7 +95,7 @@ header .container {
 header img {
     display: block;
     margin: 0 auto 20px;
-    border-radius: 50%; /* This makes the image round */
+    border-radius: 20%; /* This makes the image round */
     /* border: 5px solid #fff; /* Optional: Adds a white border around the image */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a slight shadow */
     object-fit: cover; /* Ensures the image covers the container without distortion */
