@@ -30,6 +30,12 @@ document.addEventListener("DOMContentLoaded", function() {
             typingElement.innerHTML += text.charAt(index);
             index++;
             setTimeout(typeText, 100); // Adjust speed (in ms) of typing effect
+        } else {
+            setTimeout(function() {
+                typingElement.innerHTML = ''; // Clear the text
+                index = 0; // Reset the index
+                typeText(); // Start typing again
+            }, 2000); // Adjust delay before restarting the typing effect
         }
     }
 
