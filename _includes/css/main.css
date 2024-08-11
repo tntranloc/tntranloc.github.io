@@ -510,25 +510,3 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
-
-/* Card Component Styles */
-.card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: none;
-    margin-bottom: 30px;
-}
-
-.card-img-top {
-    border-radius: 0;
-}
-
-.card-title {
-    font-size: 1.25rem;
-    margin-bottom: 15px;
-}
-
-.card-text {
-    font-size: 1rem;
-    color: #6c757d;
-}
-
