@@ -49,8 +49,8 @@ social:
     
 # Postal address (add as many lines as necessary)
 address:
-  - line: Biozentrum, University of Cologne
-  - line: 50674 Cologne, Germany
+  - line: Institute for Plant Sciences, Biozentrum, University of Cologne
+  - line: 50674, Germany
 
 # Credits content
 credits: 'My thanks to the creator of the <a href="https://jekyllthemes.io/theme/freelancer-theme">Freelancer Jekyll Theme</a> upon which my website design is based. All images and illustrations on this website are my original work. If you like my art, you can support me at my <a href="https://www.redbubble.com/people/elichakkari/shop?asc=u">Redbubble Shop</a>'
