@@ -9,6 +9,6 @@ post-img: activity1-full.png
 alt: image-alt
 project-date: 2018
 workplace: Netherlands
-skills: hmm
-description: blah
+skills: unicef
+description: unicef
 ---
