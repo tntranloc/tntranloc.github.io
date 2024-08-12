@@ -3,6 +3,7 @@ layout: activity
 modal-id: activityModal1
 title: "Nijmegen, Netherlands"
 date: 2024-03-10
+alt: image-alt
 image: "img/activities/community-service-full.png"
 thumbnail: "img/activities/community-service-thumbnail.png"
 description: "Life in Netherlands"
