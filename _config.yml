@@ -54,6 +54,12 @@ address:
 # Credits content
 credits: 'My thanks to the creator of the <a href="https://jekyllthemes.io/theme/freelancer-theme">Freelancer Jekyll Theme</a> upon which my website design is based. All images and illustrations on this website are my original work. If you like my art, you can support me at my <a href="https://www.redbubble.com/people/elichakkari/shop?asc=u">Redbubble Shop</a>'
 
+# Add collections
+collections:
+  activities:
+    output: true
+    permalink: /activities/:title/
+
 # Build settings
 markdown: kramdown
 permalink: pretty
