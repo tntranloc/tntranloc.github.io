@@ -8,15 +8,15 @@
       </div>
     </div>
     <div class="portfolio-flex-row">
-      {% for post in site.activities %}
+      {% for activity in site.activities %}
       <div class="col-md-2 portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal-{{ activity.modal-id }}" class="portfolio-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/activities/{{ post.img }}" class="img-responsive portfolio-thumbnail" alt="{{ post.alt }}">
+          <img src="img/activities/{{ activity.img }}" class="img-responsive portfolio-thumbnail" alt="{{ activity.alt }}">
         </a>
       </div>
       {% endfor %}
