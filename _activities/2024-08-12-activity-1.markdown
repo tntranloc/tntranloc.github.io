@@ -1,14 +1,11 @@
 ---
-layout: default
-modal-id: 5
-title: Blah
-subtitle: blah
+layout: activity
+title: "Community Service Project"
+subtitle: "Helping the Local Community"
+year: 2018
 date: 2024-07-28
-img: activity1-thumbnail.png
-post-img: activity1-full.png
+img: "activity1-thumbnail.jpg"
+post-img: "activity1-full.jpg"
 alt: image-alt
-project-date: 2018
-workplace: Netherlands
-skills: unicef
-description: unicef
+description: "We organized a community service event..."
 ---
