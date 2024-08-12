@@ -1,34 +1,14 @@
 ---
-layout: activity
-modal-id: activityModal1
-title: "Nijmegen, Netherlands"
-date: 2024-03-10
+layout: default
+modal-id: 1
+title: Blah
+subtitle: blah
+date: 2024-07-28
+img: activity1-thumbnail.png
+post-img: activity1-full.png
 alt: image-alt
-image: "img/activities/community-service-full.png"
-thumbnail: "img/activities/community-service-thumbnail.png"
-description: "Life in Netherlands"
-skills: "Communications"
+project-date: 2018
+workplace: Netherlands
+skills: hmm
+description: blah
 ---
-
-# Bachelor of Life Science
-
-Blah
-## Project Highlights
-
-- **Volunteers**: UNICEG
-- **Children Engaged**: blah
-
-This event was part of our ongoing commitment to giving back to the community and improving the environment. We were thrilled to see so many people come together for a good cause.
-
-## Gallery
-
-![Volunteers Planting Trees](img/activities/community-service-gallery1.png)
-![Kids Playing Games](img/activities/community-service-gallery2.png)
-
-## Testimonials
-
-> "It was such a rewarding experience....
-
-## Conclusion
-
-The day was a huge success, and we hope to continue these efforts in the future. Thank you to everyone who participated!
