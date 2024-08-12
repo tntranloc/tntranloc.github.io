@@ -2,7 +2,7 @@
 <!-- Activity Modals -->
 <!-- Portfolio Modals -->
 {% for post in site.activities %}
-<div class="portfolio-modal modal fade" id="portfolioModal-{{ activities.modal-id }}" tabindex="-1" role="dialog"
+<div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
@@ -15,27 +15,27 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2>{{ activities.title }}</h2>
-            <h4 class="subtitle">{{ activities.subtitle }}</h4>
+            <h2>{{ post.title }}</h2>
+            <h4 class="subtitle">{{ post.subtitle }}</h4>
             <hr class="star-primary">
-            <img src="img/activities/{{ activities.post-img }}" class="img-responsive img-centered" alt="{{ activities.alt }}">
+            <img src="img/activities/{{ post.post-img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% if activities.description %}
             <p>{{ activities.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
-              {% if activities.workplace %}
+              {% if post.workplace %}
               <li>Workplace:
-                <strong>{{ activities.workplace }}</strong>
+                <strong>{{ post.workplace }}</strong>
               </li>
               {% endif %}
-              {% if activities.project-date %}
+              {% if post.project-date %}
               <li>Date:
-                <strong>{{ activities.project-date }}</strong>
+                <strong>{{ post.project-date }}</strong>
               </li>
               {% endif %}
-              {% if activities.skills %}
+              {% if post.skills %}
               <li>Main Skills:
-                <strong>{{ activities.skills }}</strong>
+                <strong>{{ post.skills }}</strong>
               </li>
               {% endif %}
             </ul>
