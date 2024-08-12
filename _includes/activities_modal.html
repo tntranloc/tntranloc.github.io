@@ -17,8 +17,8 @@
             <h4 class="subtitle">{{ post.subtitle }}</h4>
             <hr class="star-primary">
             <img src="img/activities/{{ post.post-img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-            {% if activities.description %}
-            <p>{{ activities.description }}</p>
+            {% if post.description %}
+            <p>{{ post.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
               {% if post.workplace %}
