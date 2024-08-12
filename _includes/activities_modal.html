@@ -1,30 +1,50 @@
 
 <!-- Activity Modals -->
-<!-- Activity Modal 1 -->
-<div class="portfolio-modal modal fade" id="activityModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <img src="img/activities/activity1-full.png" alt="Activity 1" class="img-responsive">
-                    </div>
-                    <div class="col-lg-4">
-                        <h2>Activity 1</h2>
-                        <p class="item-intro text-muted">Description of Activity 1</p>
-                        <ul class="list-inline">
-                            <li>Date: January 2024</li>
-                            <li>Type: Community Service</li>
-                            <li>Location: Netherlands</li>
-                        </ul>
-                        <button type="button" class="btn btn-primary" data-dismiss="modal">
-                            <i class="fa fa-times"></i> Close
-                        </button>
-                    </div>
-                </div>
-            </div>
+<!-- Portfolio Modals -->
+{% for post in site.activities %}
+<div class="portfolio-modal modal fade" id="portfolioModal-{{ activities.modal-id }}" tabindex="-1" role="dialog"
+  aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
         </div>
+      </div>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>{{ activities.title }}</h2>
+            <h4 class="subtitle">{{ activities.subtitle }}</h4>
+            <hr class="star-primary">
+            <img src="img/activities/{{ activities.post-img }}" class="img-responsive img-centered" alt="{{ activities.alt }}">
+            {% if activities.description %}
+            <p>{{ activities.description }}</p>
+            {% endif %}
+            <ul class="list-inline item-details">
+              {% if activities.workplace %}
+              <li>Workplace:
+                <strong>{{ activities.workplace }}</strong>
+              </li>
+              {% endif %}
+              {% if activities.project-date %}
+              <li>Date:
+                <strong>{{ activities.project-date }}</strong>
+              </li>
+              {% endif %}
+              {% if activities.skills %}
+              <li>Main Skills:
+                <strong>{{ activities.skills }}</strong>
+              </li>
+              {% endif %}
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<!-- Repeat the same structure for Activity Modal 2 and Activity Modal 3 -->
+{% endfor %}
