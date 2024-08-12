@@ -1,6 +1,6 @@
 <!-- Activity Modals -->
-{% for post in site.activities %}
-<div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
+{% for activity in site.activities %}
+<div class="portfolio-modal modal fade" id="portfolioModal-{{ activity.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
@@ -13,27 +13,27 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2>{{ post.title }}</h2>
-            <h4 class="subtitle">{{ post.subtitle }}</h4>
+            <h2>{{ activity.title }}</h2>
+            <h4 class="subtitle">{{ activity.subtitle }}</h4>
             <hr class="star-primary">
-            <img src="img/activities/{{ post.post-img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-            {% if post.description %}
-            <p>{{ post.description }}</p>
+            <img src="img/activities/{{ activity.post-img }}" class="img-responsive img-centered" alt="{{ activity.alt }}">
+            {% if activity.description %}
+            <p>{{ activity.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
-              {% if post.workplace %}
+              {% if activity.workplace %}
               <li>Workplace:
-                <strong>{{ post.workplace }}</strong>
+                <strong>{{ activity.workplace }}</strong>
               </li>
               {% endif %}
-              {% if post.project-date %}
+              {% if activity.project-date %}
               <li>Date:
-                <strong>{{ post.project-date }}</strong>
+                <strong>{{ activity.project-date }}</strong>
               </li>
               {% endif %}
-              {% if post.skills %}
+              {% if activity.skills %}
               <li>Main Skills:
-                <strong>{{ post.skills }}</strong>
+                <strong>{{ activity.skills }}</strong>
               </li>
               {% endif %}
             </ul>
