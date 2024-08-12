@@ -1,22 +1,22 @@
 <!-- Activities Section -->
 <section id="activities">
-  <div class="container portfolio-flex-grid">
+  <div class="container activities-flex-grid">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2> Timeline & Activities </h2>
         <hr class="star-primary">
       </div>
     </div>
-    <div class="portfolio-flex-row">
+    <div class="activities-flex-row">
       {% for post in site.activities %}
       <div class="col-md-2 portfolio-item">
-        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+        <a href="#portfolioModal-{{ post.modal-id }}" class="activities-link" data-toggle="modal">
           <div class="caption">
             <div class="caption-content">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img src="img/activities/{{ post.img }}" class="img-responsive portfolio-thumbnail" alt="{{ post.alt }}">
+          <img src="img/activities/{{ post.img }}" class="img-responsive activities-thumbnail" alt="{{ post.alt }}">
         </a>
       </div>
       {% endfor %}
