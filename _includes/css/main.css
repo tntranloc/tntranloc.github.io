@@ -462,8 +462,8 @@ footer .footer-below {
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 600px;
+    max-height: 600px;
     width: 100%;
     height: auto;
     display: block;
@@ -471,6 +471,7 @@ footer .footer-below {
     object-fit: cover;
     margin: 0 auto; 
 }
+
 
 .portfolio-modal .modal-content .item-details {
     margin: 30px 0;
@@ -510,6 +511,26 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+
+.portfolio-thumbnail {
+    margin-bottom: 30px;
+    max-width: 350px;
+    max-height: 350px;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+
+.portfolio-item .portfolio-link:hover .portfolio-thumbnail {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
 
 .navbar-nav>.active>a {
     background-color: #{{ site.color.secondary-dark }} !important;
