@@ -1,5 +1,6 @@
 ---
 layout: activity
+modal-id: 5
 title: "Community Service Project"
 subtitle: "Helping the Local Community"
 year: 2018
