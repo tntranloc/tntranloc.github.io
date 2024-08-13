@@ -1,52 +1,44 @@
 <!-- Activity Modals -->
 {% for activity in site.activities %}
-<div class="portfolio-modal modal fade" id="activityModal-{{ activity.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
+<div class="portfolio-modal modal fade" id="activityModal-{{ activity.modal-id }}" tabindex="-1" role="dialog"
+  aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 col-lg-offset-1">
-            <div class="modal-body">
-              <!-- Title and Subtitle -->
-              <h2 class="modal-title">{{ activity.title }}</h2>
-              <h4 class="modal-subtitle">{{ activity.subtitle }}</h4>
-              <hr class="star-primary">
-
-              <!-- Image -->
-              <img src="img/activities/{{ activity.post-img }}" class="img-responsive img-centered modal-image" alt="{{ activity.alt }}">
-
-              <!-- Description -->
-              {% if activity.description %}
-              <div class="modal-description">
-                <p>{{ activity.description }}</p>
-              </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>{{ activity.title }}</h2>
+            <h4 class="subtitle">{{ activity.subtitle }}</h4>
+            <hr class="star-primary">
+            <img src="img/activities/{{ activity.post-img }}" class="img-responsive img-centered" alt="{{ activity.alt }}">
+            {% if activity.description %}
+            <p>{{ activity.description }}</p>
+            {% endif %}
+            <ul class="list-inline item-details">
+              {% if activity.workplace %}
+              <li>Workplace:
+                <strong>{{ activity.workplace }}</strong>
+              </li>
               {% endif %}
-
-              <!-- Details Section -->
-              <div class="modal-details">
-                <ul class="list-inline item-details">
-                  {% if activity.workplace %}
-                  <li><strong>Workplace:</strong> {{ activity.workplace }}</li>
-                  {% endif %}
-                  {% if activity.project-date %}
-                  <li><strong>Date:</strong> {{ activity.project-date }}</li>
-                  {% endif %}
-                  {% if activity.skills %}
-                  <li><strong>Main Skills:</strong> {{ activity.skills }}</li>
-                  {% endif %}
-                </ul>
-              </div>
-
-              <!-- Close Button -->
-              <button type="button" class="btn btn-primary" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close
-              </button>
-            </div>
+              {% if activity.project-date %}
+              <li>Date:
+                <strong>{{ activity.project-date }}</strong>
+              </li>
+              {% endif %}
+              {% if activity.skills %}
+              <li>Main Skills:
+                <strong>{{ activity.skills }}</strong>
+              </li>
+              {% endif %}
+            </ul>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
+              Close</button>
           </div>
         </div>
       </div>
