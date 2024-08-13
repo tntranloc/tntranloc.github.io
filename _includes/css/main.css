@@ -812,7 +812,6 @@ footer .footer-below {
 
 /* Ensure Proper Layout of Columns Inside the Modal */
 .modal .row {
-    display: flex;
     flex-wrap: wrap;
 }
 
