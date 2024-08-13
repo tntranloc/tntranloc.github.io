@@ -1,61 +1,25 @@
-<!-- Activity Modals -->
-{% for activity in site.activities %}
-<div class="portfolio-modal modal fade" id="activityModal-{{ activity.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
+<!-- Activities Section -->
+<section id="activities">
+    <div class="container portfolio-flex-grid">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2> Timeline & Activities </h2>
+          <hr class="star-primary">
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 col-lg-offset-1">
-            <div class="modal-body">
-              <!-- Image -->
-              <img src="img/activities/{{ activity.post-img }}" class="img-responsive img-centered modal-image" alt="{{ activity.alt }}">
-
-              <div class="row">
-                <!-- Left Content Section -->
-                <div class="col-md-8">
-                  <h4 class="modal-subtitle">{{ activity.subtitle }}</h4>
-                  <h2 class="modal-title">{{ activity.title }}</h2>
-                  <hr class="star-primary">
-                  {% if activity.description %}
-                  <div class="modal-description">
-                    <p>{{ activity.description }}</p>
-                  </div>
-                  {% endif %}
-                </div>
-
-                <!-- Right Project Details Box -->
-                <div class="col-md-4">
-                  <div class="project-details-box">
-                    <h3>Project Details</h3>
-                    <ul class="list-unstyled">
-                      {% if activity.client %}
-                      <li><strong>Client:</strong> {{ activity.client }}</li>
-                      {% endif %}
-                      {% if activity.tools %}
-                      <li><strong>Made With:</strong> {{ activity.tools }}</li>
-                      {% endif %}
-                      {% if activity.project-date %}
-                      <li><strong>Date:</strong> {{ activity.project-date }}</li>
-                      {% endif %}
-                    </ul>
-                  </div>
-                </div>
+      <div class="portfolio-flex-row">
+        {% for activity in site.activities %}
+        <div class="col-md-2 portfolio-item">
+          <a href="#activityModal-{{ activity.modal-id }}" class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+              <div class="caption-content">
+                <i class="fa fa-search-plus fa-3x"></i>
               </div>
-
-              <!-- Close Button -->
-              <button type="button" class="btn btn-primary" data-dismiss="modal">
-                <i class="fa fa-times"></i> Close
-              </button>
             </div>
-          </div>
+            <img src="img/activities/{{ activity.img }}" class="img-responsive portfolio-thumbnail" alt="{{ activity.alt }}">
+          </a>
         </div>
+        {% endfor %}
       </div>
     </div>
-  </div>
-</div>
-{% endfor %}
+  </section>
