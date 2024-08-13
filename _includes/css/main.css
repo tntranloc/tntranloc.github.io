@@ -837,3 +837,74 @@ footer .footer-below {
     border-color: #004085;
 }
 
+
+
+/* Fancy Modal Styling */
+/* Modal Dialog to Control Overall Modal Width */
+.modal-dialog.modal-lg {
+    max-width: 900px; /* Adjust this value to control the modal width */
+    margin: 30px auto; /* Center the modal and add some vertical spacing */
+}
+
+/* Modal Image Styling */
+.modal-image {
+    margin-bottom: 20px;
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%; /* Ensure the image takes up full width */
+    height: auto;
+}
+
+/* Modal Title and Subtitle Styling */
+.modal-title {
+    font-size: 2rem; /* Adjusted size for better fitting */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.modal-subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #f07c6c; /* Example color */
+    margin-bottom: 20px;
+}
+
+/* Project Details Box Styling */
+.project-details-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Space above the details box */
+    position: relative;
+    width: 100%; /* Ensure it fits within the column */
+}
+
+/* Ensure Proper Layout of Columns Inside the Modal */
+.modal .row {
+    flex-wrap: wrap;
+}
+
+.col-md-4, .col-md-8 {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box; /* Ensure padding doesn't break layout */
+}
+
+/* Close Button Styling */
+.modal-body .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px; /* Space between button and content */
+}
+
+.modal-body .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
