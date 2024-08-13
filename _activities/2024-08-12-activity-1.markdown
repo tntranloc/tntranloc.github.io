@@ -3,10 +3,7 @@ layout: default
 modal-id: 5
 title: "Community Service Project"
 subtitle: "Helping the Local Community"
-year: 2018
-date: 2024-07-28
 img: activity1-thumbnail.png
 post-img: activity1-full.png
 alt: image-alt
-description: "We organized a community service event..."
 ---
