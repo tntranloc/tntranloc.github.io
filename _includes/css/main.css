@@ -770,6 +770,14 @@ footer .footer-below {
 
 /* Fancy Modal Styling */
 
+/* Modal Image Styling */
+.modal-image {
+    margin-bottom: 30px;
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Modal Title and Subtitle Styling */
 .modal-title {
     font-size: 2.5rem;
     font-weight: bold;
@@ -778,35 +786,39 @@ footer .footer-below {
 }
 
 .modal-subtitle {
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: #777;
-    margin-bottom: 20px;
-}
-
-/* Modal Image Styling */
-.modal-image {
-    margin-bottom: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Modal Description Styling */
-.modal-description p {
     font-size: 1.2rem;
-    line-height: 1.8;
-    color: #555;
+    font-weight: 300;
+    color: #f07c6c; /* Example color */
     margin-bottom: 20px;
 }
 
-/* Modal Details Styling */
-.modal-details {
-    margin-top: 30px;
+/* Project Details Box Styling */
+.project-details-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.modal-details .item-details li {
+.project-details-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.project-details-box ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.project-details-box li {
     font-size: 1rem;
     color: #555;
     margin-bottom: 10px;
+}
+
+.project-details-box li strong {
+    color: #333;
 }
 
 /* Close Button Styling */
