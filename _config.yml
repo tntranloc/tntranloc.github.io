@@ -59,6 +59,7 @@ collections:
   activities:
     output: true
     permalink: /activities/:title/
+permalink: /:categories/:year/:month/:day/:title/
 
 # Build settings
 markdown: kramdown
