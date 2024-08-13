@@ -769,18 +769,23 @@ footer .footer-below {
 
 
 /* Fancy Modal Styling */
+/* Ensure the modal is correctly centered and large enough */
+.modal-dialog.modal-lg {
+    max-width: 1200px; /* Adjust the width to better fit your content */
+}
 
 /* Modal Image Styling */
 .modal-image {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     border-radius: 10px; /* Optional: Rounded corners */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     width: 100%; /* Ensure the image takes up full width */
+    height: auto;
 }
 
 /* Modal Title and Subtitle Styling */
 .modal-title {
-    font-size: 2.5rem;
+    font-size: 2rem; /* Smaller font-size to fit better */
     font-weight: bold;
     margin-bottom: 10px;
     color: #333;
@@ -800,6 +805,7 @@ footer .footer-below {
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     margin-top: 20px; /* Add space between image and details box */
+    position: relative;
 }
 
 .project-details-box h3 {
@@ -821,6 +827,17 @@ footer .footer-below {
 
 .project-details-box li strong {
     color: #333;
+}
+
+/* Ensure the Project Details box does not overflow */
+.modal .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4, .col-md-8 {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Close Button Styling */
