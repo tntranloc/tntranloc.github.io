@@ -775,6 +775,7 @@ footer .footer-below {
     margin-bottom: 30px;
     border-radius: 10px; /* Optional: Rounded corners */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 100%; /* Ensure the image takes up full width */
 }
 
 /* Modal Title and Subtitle Styling */
@@ -798,6 +799,7 @@ footer .footer-below {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add space between image and details box */
 }
 
 .project-details-box h3 {
@@ -829,11 +831,10 @@ footer .footer-below {
     padding: 10px 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
+    margin-top: 20px; /* Add space between content and button */
 }
 
 .modal-body .btn-primary:hover {
     background-color: #0056b3;
     border-color: #004085;
 }
-
-
