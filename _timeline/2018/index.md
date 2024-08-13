@@ -1,1 +1,7 @@
+---
+layout: year
+title: "Activities in 2018"
+year: 2018
+permalink: /_timeline/2018/index.md/
+---
 
