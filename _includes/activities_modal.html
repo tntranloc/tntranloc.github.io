@@ -33,11 +33,11 @@
                   <div class="project-details-box">
                     <h3>Project Details</h3>
                     <ul class="list-unstyled">
-                      {% if activity.workplace %}
-                      <li><strong>Location:</strong> {{ activity.workplace }}</li>
+                      {% if activity.client %}
+                      <li><strong>Client:</strong> {{ activity.client }}</li>
                       {% endif %}
-                      {% if activity.skills %}
-                      <li><strong>Skills:</strong> {{ activity.skills }}</li>
+                      {% if activity.tools %}
+                      <li><strong>Made With:</strong> {{ activity.tools }}</li>
                       {% endif %}
                       {% if activity.project-date %}
                       <li><strong>Date:</strong> {{ activity.project-date }}</li>
