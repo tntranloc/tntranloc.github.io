@@ -1,8 +1,8 @@
 ---
 layout: default
 modal-id: 5
-title: "Community Service Project"
-subtitle: "Helping the Local Community"
+title: September 2018 - June 2020
+subtitle: "BSc Major Study, UNICEF, and Minor Degree"
 img: activity1-thumbnail.png
 post-img: activity1-full.png
 alt: image-alt
