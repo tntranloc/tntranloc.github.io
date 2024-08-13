@@ -769,9 +769,10 @@ footer .footer-below {
 
 
 /* Fancy Modal Styling */
-/* Ensure the modal is correctly centered and large enough */
+/* Modal Dialog to Control Overall Modal Width */
 .modal-dialog.modal-lg {
-    max-width: 1200px; /* Adjust the width to better fit your content */
+    max-width: 900px; /* Adjust this value to control the modal width */
+    margin: 30px auto; /* Center the modal and add some vertical spacing */
 }
 
 /* Modal Image Styling */
@@ -785,7 +786,7 @@ footer .footer-below {
 
 /* Modal Title and Subtitle Styling */
 .modal-title {
-    font-size: 2rem; /* Smaller font-size to fit better */
+    font-size: 2rem; /* Adjusted size for better fitting */
     font-weight: bold;
     margin-bottom: 10px;
     color: #333;
@@ -804,32 +805,12 @@ footer .footer-below {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin-top: 20px; /* Add space between image and details box */
+    margin-top: 20px; /* Space above the details box */
     position: relative;
+    width: 100%; /* Ensure it fits within the column */
 }
 
-.project-details-box h3 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.project-details-box ul {
-    padding-left: 0;
-    list-style-type: none;
-}
-
-.project-details-box li {
-    font-size: 1rem;
-    color: #555;
-    margin-bottom: 10px;
-}
-
-.project-details-box li strong {
-    color: #333;
-}
-
-/* Ensure the Project Details box does not overflow */
+/* Ensure Proper Layout of Columns Inside the Modal */
 .modal .row {
     display: flex;
     flex-wrap: wrap;
@@ -838,6 +819,7 @@ footer .footer-below {
 .col-md-4, .col-md-8 {
     padding-left: 15px;
     padding-right: 15px;
+    box-sizing: border-box; /* Ensure padding doesn't break layout */
 }
 
 /* Close Button Styling */
@@ -848,10 +830,11 @@ footer .footer-below {
     padding: 10px 20px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    margin-top: 20px; /* Add space between content and button */
+    margin-top: 20px; /* Space between button and content */
 }
 
 .modal-body .btn-primary:hover {
     background-color: #0056b3;
     border-color: #004085;
 }
+
