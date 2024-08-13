@@ -1,5 +1,5 @@
 ---
-layout: activity
+layout: default
 modal-id: 5
 title: "Community Service Project"
 subtitle: "Helping the Local Community"
