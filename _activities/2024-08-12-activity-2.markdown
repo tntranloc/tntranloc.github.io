@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 5
+title: Art Activities
+subtitle: 
+img: activity1-thumbnail.png
+post-img: activity1-full.png
+alt: image-alt
+icon: "fa-solid fa-music"
+---
