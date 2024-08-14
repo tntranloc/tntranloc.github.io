@@ -6,5 +6,5 @@ subtitle:
 img: scicomm.png
 post-img: activity1-full.png
 alt: image-alt
-icon: "fa-solid fa-music"
+icon: "fa-solid fa-people-arrows"
 ---
