@@ -512,8 +512,10 @@ footer .footer-below {
 
 
 .portfolio-thumbnail {
-    margin-bottom: 30px;
+    margin-bottom: 70px;
+    margin-top: 70px;
     max-width: 250px;
+    width: 100%;
     height: auto;
     display: block;
     object-fit: cover;
