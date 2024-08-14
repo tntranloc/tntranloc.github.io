@@ -462,21 +462,13 @@ footer .footer-below {
 
 .portfolio-modal .modal-content img {
     margin-bottom: 100px;
-    max-width: 1200px;
-    max-height: 1200px;
-    height: auto;
-    display: block;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    object-fit: cover;
-    margin: 0 auto; 
-}
-
-.portfolio-modal .modal-content .post-img {
-    max-width: 100%; /* Image takes up as much width as possible */
+    max-width: 100%;/* Image takes up as much width as possible */
     height: auto; /* Maintain the image's aspect ratio */
     width: 100%; /* Ensure the image width fills the container */
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     object-fit: cover; /* Ensures the image covers the container without distortion */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: Add a slight shadow for depth */
+    margin: 0 auto; 
 }
 
 .portfolio-modal .modal-content .item-details {
