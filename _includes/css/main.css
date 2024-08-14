@@ -462,8 +462,8 @@ footer .footer-below {
 
 .portfolio-modal .modal-content img {
     margin-bottom: 100px;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 1200px;
+    max-height: 1200px;
     height: auto;
     display: block;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
@@ -521,8 +521,8 @@ footer .footer-below {
 
 .portfolio-thumbnail {
     margin-bottom: 30px;
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 250px;
+    max-height: 250px;
     width: 100%;
     height: auto;
     display: block;
