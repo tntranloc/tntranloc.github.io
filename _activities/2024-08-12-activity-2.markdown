@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 6
-title: Science Communications
+title: Communications
 subtitle: 
 img: scicomm.png
 post-img: activity1-full.png
