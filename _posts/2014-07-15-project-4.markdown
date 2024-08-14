@@ -7,4 +7,5 @@ date: 2024-07-28
 img: brassica.png
 post-img: brapa.png
 alt: image-alt
+click: to zoom in or download
 ---
