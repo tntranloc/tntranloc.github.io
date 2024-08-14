@@ -7,7 +7,7 @@ date: 2024-07-28
 img: alyrata.png
 post-img: lyrata.png
 alt: image-alt
-click: on the image to zoom in or download
+click: Click on the image to zoom in or download
 project-date: October 2022 - now
 workplace: University of Cologne, Germany
 skills: quantitative genetics models (Bayesian approach), RNA-seq analysis (from raw to final), Differential Expression and Enrichment analysis, eQTL
