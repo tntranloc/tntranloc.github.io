@@ -6,7 +6,7 @@ date: 2024-07-28
 img: dormancy.png
 post-img: seed.png
 alt: image-alt
-click: on the image to zoom in or download
+click: Click on the image to zoom in or download
 project-date: June 2021
 workplace: Heinrich Heine University Düsseldorf, Germany
 skills: SNP calling (from raw to final), GWAS, (binomial) regression analysis
