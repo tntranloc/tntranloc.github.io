@@ -1,9 +1,9 @@
 ---
 layout: default
 modal-id: 5
-title: Art Activities
+title: Science Communications
 subtitle: 
-img: activity1-thumbnail.png
+img: scicomm.png
 post-img: activity1-full.png
 alt: image-alt
 icon: "fa-solid fa-music"
