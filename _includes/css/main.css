@@ -213,6 +213,7 @@ section.success {
     font-size: 80px; /* Larger size for the icons */
     display: block;
     margin-top: 10px; /* Space between the image and the icon */
+    text-align: center;
 }
 
 .portfolio-item .portfolio-link {
