@@ -209,6 +209,12 @@ section.success {
     overflow: hidden;
 }
 
+.portfolio-item i {
+    font-size: 32px; /* Larger size for the icons */
+    display: block;
+    margin-top: 10px; /* Space between the image and the icon */
+}
+
 .portfolio-item .portfolio-link {
     display: block;
     position: relative;
