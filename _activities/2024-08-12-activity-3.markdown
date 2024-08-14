@@ -6,5 +6,5 @@ subtitle:
 img: art.png
 post-img: activity1-full.png
 alt: image-alt
-icon: "fa-solid fa-people-music"
+icon: "fa-solid fa-music"
 ---
