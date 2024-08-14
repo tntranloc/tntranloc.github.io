@@ -16,7 +16,10 @@
             <h2>{{ post.title }}</h2>
             <h4 class="subtitle">{{ post.subtitle }}</h4>
             <hr class="star-primary">
-            <img src="img/portfolio/{{ post.post-img }}" class="img-responsive img-centered portfolio-img" alt="{{ post.alt }}">
+            <!-- Make the post image clickable -->
+            <a href="img/portfolio/{{ post.post-img }}" target="_blank">
+              <img src="img/portfolio/{{ post.post-img }}" class="img-responsive img-centered portfolio-img" alt="{{ post.alt }}">
+            </a>
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
