@@ -6,4 +6,5 @@ subtitle: UNICEF Studenten Team Nijmegen
 img: activity1-thumbnail.png
 post-img: activity1-full.png
 alt: image-alt
+icon: "fa-solid fa-people-roof"
 ---
