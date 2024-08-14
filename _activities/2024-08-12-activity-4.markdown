@@ -1,0 +1,10 @@
+---
+layout: default
+modal-id: 8
+title: Languages
+subtitle: 
+img: sprache.png
+post-img: activity1-full.png
+alt: image-alt
+icon: "fa-solid fa-book"
+---
