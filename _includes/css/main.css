@@ -210,7 +210,7 @@ section.success {
 }
 
 .portfolio-item i {
-    font-size: 32px; /* Larger size for the icons */
+    font-size: 80px; /* Larger size for the icons */
     display: block;
     margin-top: 10px; /* Space between the image and the icon */
 }
