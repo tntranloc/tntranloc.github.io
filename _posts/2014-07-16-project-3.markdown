@@ -6,7 +6,7 @@ subtitle: KUODA transcription factors and their interactions with TOPLESS/TOPLES
 date: 2024-07-28
 img: athaliana.png
 alt: image-alt
-click: to zoom in or download
+click: on the image to zoom in or download
 project-date: May 2021
 workplace: Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben, Germany
 skills: vector cloning (E.coli system), primer design, Sanger sequencing, Bimolecular fluorescence complementation (BiFC), yeast-two-hybrid transformation, chloroplast transformation
