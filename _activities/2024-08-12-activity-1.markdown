@@ -3,7 +3,7 @@ layout: default
 modal-id: 5
 title: Community Work
 subtitle: UNICEF Studenten Team Nijmegen
-img: activity1-thumbnail.png
+img: event.png
 post-img: activity1-full.png
 alt: image-alt
 icon: "fa-solid fa-people-roof"
