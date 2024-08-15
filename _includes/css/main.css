@@ -321,19 +321,17 @@ section.success {
     background: #fff;
 }
 
-/* Custom styles for the Send button */
-
-.contact .btn-success {
-    background-color: #{{ site.color.secondary }}; /* Your desired background color */
-    border-color: #{{ site.color.secondary }}; /* Your desired border color */
+.my-custom-btn {
+    background-color: #{{ site.color.primary }};
+    border-color: #{{ site.color.primary }};
 }
 
-.contact .btn-success:hover,
-.contact .btn-success:focus,
-.contact .btn-success:active,
-.contact .btn-success.active {
-    background-color: #{{ site.color.secondary.dark }}; /* Your desired hover background color */
-    border-color: #{{ site.color.secondary.dark }}; /* Your desired hover border color */
+.my-custom-btn:hover,
+.my-custom-btn:focus,
+.my-custom-btn:active,
+.my-custom-btn.active {
+    background-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.secondary }};
 }
 
 
