@@ -322,18 +322,18 @@ section.success {
 }
 
 /* Custom styles for the Send button */
-.btn-success {
-    background-color: #{{ site.color.secondary }}; /* Use your primary site color */
-    border-color: #{{ site.color.secondary }}; /* Use your primary site color for the border */
+
+.contact .btn-success {
+    background-color: #{{ site.color.secondary }}; /* Your desired background color */
+    border-color: #{{ site.color.secondary }}; /* Your desired border color */
 }
 
-/* Hover, focus, and active state styles */
-.btn-success:hover,
-.btn-success:focus,
-.btn-success:active,
-.btn-success.active {
-    background-color: #{{ site.color.secondary.dark }}; /* Change to your desired hover color */
-    border-color: #{{ site.color.secondary.dark }}; /* Change the border color on hover */
+.contact .btn-success:hover,
+.contact .btn-success:focus,
+.contact .btn-success:active,
+.contact .btn-success.active {
+    background-color: #{{ site.color.secondary.dark }}; /* Your desired hover background color */
+    border-color: #{{ site.color.secondary.dark }}; /* Your desired hover border color */
 }
 
 
