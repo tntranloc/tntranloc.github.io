@@ -6,6 +6,6 @@ subtitle: Fundraising and Event Organising
 img: event.png
 post-img: event-full.1.png
 alt: image-alt
-icon: "fa-solid fa-people-roof"
 click: Click on the image to zoom in
+icon: "fa-solid fa-people-roof"
 ---
