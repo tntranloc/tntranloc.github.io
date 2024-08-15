@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 title: PhD Thesis
-subtitle: Non-additive genetic variance in transcriptome, methylome, and plant fitness in Arabidopsis lyrata populations
+subtitle: The contribution of phenotypic and molecular non-additive variance to plant fitness variation in <i>Arabidopsis lyrata</i> populations
 date: 2024-07-28
 img: alyrata.png
 post-img: lyrata.png
