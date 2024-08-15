@@ -2,6 +2,7 @@
 layout: default
 modal-id: 2
 title: MSc Thesis
+subtitle:  Understanding adaptive strategies through heat-induced secondary dormancy in <i>Arabidopsis thaliana</i> across European latitudinal gradient  
 date: 2024-07-28
 img: dormancy.png
 post-img: seed.png
