@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 title: BSc Thesis
-subtitle: KUODA transcription factors and their interactions with TOPLESS/TOPLESS-related corepressors in Arabidopsis thaliana
+subtitle: <i>KUODA</i> transcription factors and their interactions with <i>TOPLESS/TOPLESS-related</i> corepressors in <i>Arabidopsis thaliana</i>
 date: 2024-07-28
 img: athaliana.png
 alt: image-alt
