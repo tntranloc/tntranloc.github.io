@@ -1,8 +1,8 @@
 ---
 layout: default
 modal-id: 5
-title: Community Work
-subtitle: UNICEF Studenten Team Nijmegen
+title: Volunteer Work
+subtitle: Fundraising and Event Organising
 img: event.png
 post-img: event-full.1.png
 alt: image-alt
