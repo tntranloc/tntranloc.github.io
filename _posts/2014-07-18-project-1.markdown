@@ -2,14 +2,10 @@
 layout: default
 modal-id: 1
 title: PhD Thesis
-subtitle: Dominance variance in transcriptome, methylome, and plant fitness in Arabidopsis lyrata populations
+subtitle: Non-additive genetic variance in transcriptome, methylome, and plant fitness in Arabidopsis lyrata populations
 date: 2024-07-28
 img: alyrata.png
 post-img: lyrata.png
 alt: image-alt
 click: Click on the image to zoom in or download
-project-date: October 2022 - now
-workplace: University of Cologne, Germany
-skills: quantitative genetics models (Bayesian approach), RNA-seq analysis (from raw to final), Differential Expression and Enrichment analysis, eQTL
-description: We investigate the inheritance patterns of transcriptomic variation and epigentic variation within Arabidopsis lyrata populations, with a particular emphasis on understanding the role of non-additive variance. Arabidopsis lyrata is an obligate outcrossing species of Arabidopsis genus, allowing us to perform various quantitative breeding designs. This study can unravel how specific genetic elements are passed down and influence the future evolution of fitness traits. Our work lays a groundwork for leveraging molecular selection in breeding as well as the theory of adaptive evolution in nature.
 ---
