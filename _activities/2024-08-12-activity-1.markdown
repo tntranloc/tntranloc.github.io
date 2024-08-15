@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 5
-title: Volunteer Work
+title: Highlighted Work
 subtitle: Fundraising and Event Organising
 img: event.png
 post-img: event-full.1.png
