@@ -16,7 +16,9 @@
             <h2>{{ activity.title }}</h2>
             <h4 class="subtitle">{{ activity.subtitle }}</h4>
             <hr class="star-primary">
-            <img src="img/activities/{{ activity.post-img }}" class="img-responsive img-centered portfolio-post-img" alt="{{ activity.alt }}">
+            <a href="img/portfolio/{{ post.post-img }}" class="btn btn-lg btn-outline" target="_blank">
+              <img src="img/activities/{{ activity.post-img }}" class="img-responsive img-centered portfolio-post-img" alt="{{ activity.alt }}">
+            </a>
             {% if activity.description %}
             <p>{{ activity.description }}</p>
             {% endif %}
