@@ -6,5 +6,6 @@ subtitle: Programming and Spoken "Languages"
 img: sprache.png
 post-img: activity-full.4.1.png
 alt: image-alt
+click: Click on the image to zoom in
 icon: "fa-solid fa-book"
 ---
