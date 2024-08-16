@@ -927,3 +927,30 @@ footer .footer-below {
     border-color: #004085;
 }
 
+/* Writing Section Styling */
+#writings {
+  padding: 100px 0;
+}
+
+.btn-writing {
+  margin: 20px;
+  padding: 15px 30px;
+  background-color: #{{ site.color.primary }};
+  color: #fff;
+  border: 2px solid #{{ site.color.primary }};
+  transition: all 0.3s ease;
+}
+
+.btn-writing:hover {
+  background-color: #{{ site.color.secondary }};
+  border-color: #{{ site.color.secondary }};
+  color: #fff;
+}
+
+/* Blog Header Styling */
+.blog-header {
+  background-color: #{{ site.color.primary }};
+  padding: 100px 0;
+  color: #fff;
+}
+
