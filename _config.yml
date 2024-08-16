@@ -59,6 +59,13 @@ collections:
   activities:
     output: true
     permalink: /activities/:title/
+  posts:
+    output: true
+  blog:
+    output: true
+    permalink: /:collection/:title/
+    folder: blog
+
 
 # Build settings
 markdown: kramdown
