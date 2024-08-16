@@ -2,9 +2,9 @@
 layout: default
 modal-id: 8
 title: Languages
-subtitle: 
+subtitle: Programming and Spoken "Languages"
 img: sprache.png
-post-img: activity1-full.png
+post-img: activity-full.4.1.png
 alt: image-alt
 icon: "fa-solid fa-book"
 ---
