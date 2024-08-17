@@ -43,7 +43,7 @@
     </div>
 </section>
 
-<!-- JavaScript to handle the quote reveal with typing effect -->
+<!-- JavaScript to handle the quote reveal -->
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const icons = document.querySelectorAll(".quote-icon");
@@ -55,20 +55,9 @@
                 const title = this.getAttribute("data-title");
                 const quoteText = this.nextElementSibling;
 
-                const fullText = `<p>"${quote}"</p><p><strong>${author}</strong><br>${title}</p>`;
-                quoteText.innerHTML = ''; // Clear any previous text
-
-                typeQuoteText(quoteText, fullText, 0);
+                quoteText.innerHTML = `<p>${quote}</p><p><strong>${author}</strong><br>${title}</p>`;
+                quoteText.classList.toggle("show"); // Add a class to handle CSS animations if desired
             });
         });
-
-        function typeQuoteText(element, text, index) {
-            if (index < text.length) {
-                element.innerHTML += text.charAt(index);
-                setTimeout(function() {
-                    typeQuoteText(element, text, index + 1);
-                }, 50); // Adjust the typing speed here
-            }
-        }
     });
 </script>
