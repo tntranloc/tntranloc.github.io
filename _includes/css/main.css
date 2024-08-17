@@ -927,30 +927,53 @@ footer .footer-below {
     border-color: #004085;
 }
 
-/* Writing Section Styling */
-#writings {
-  padding: 100px 0;
+/* Blog Section Styling */
+#blog {
+    padding: 100px 0;
 }
 
-.btn-writing {
-  margin: 20px;
-  padding: 15px 30px;
-  background-color: #{{ site.color.primary }};
-  color: #fff;
-  border: 2px solid #{{ site.color.primary }};
-  transition: all 0.3s ease;
+.blog-item {
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
 }
 
-.btn-writing:hover {
-  background-color: #{{ site.color.secondary }};
-  border-color: #{{ site.color.secondary }};
-  color: #fff;
+.blog-item:hover {
+    transform: scale(1.1);
 }
 
-/* Blog Header Styling */
-.blog-header {
-  background-color: #{{ site.color.primary }};
-  padding: 100px 0;
-  color: #fff;
+.quote-container {
+    cursor: pointer;
+}
+
+.quote-container i {
+    color: #{{ site.color.primary }};
+}
+
+.quote-container:hover i {
+    color: #{{ site.color.secondary }};
+}
+
+/* Modal Quote Styling */
+.quote-modal-content {
+    padding: 30px;
+    text-align: center;
+}
+
+.quote-modal-content p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.quote-modal-content .quote-author {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.quote-modal-content .quote-title {
+    margin-top: 5px;
+    font-size: 1em;
+    font-weight: normal;
 }
 
