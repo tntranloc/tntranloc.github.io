@@ -15,21 +15,21 @@
             <div class="col-md-4" style="padding-left: 2px; padding-right: 2px;">
                 <div class="quote-container" id="quote-1" style="margin-bottom: 20px;">
                     <i class="fa fa-lightbulb fa-3x quote-icon" data-quote="There is no greater misfortune in the world than the loss of reason" data-author="Mikhail Bulgakov" data-title="The Master And Margarita (1967)"></i>
-                    <div class="quote-text quote-typing-animation"></div>
+                    <div class="quote-text"></div>
                 </div>
             </div>
             <!-- Quote 2 -->
             <div class="col-md-4" style="padding-left: 2px; padding-right: 2px;">
                 <div class="quote-container" id="quote-2" style="margin-bottom: 20px;">
                     <i class="fa fa-road fa-3x quote-icon" data-quote="Experience is merely the name men gave to their mistakes ... Behind every exquisite thing that existed, there was something tragic" data-author="Oscar Wilde" data-title="The Picture Of Dorian Gray (1890)"></i>
-                    <div class="quote-text quote-typing-animation"></div>
+                    <div class="quote-text"></div>
                 </div>
             </div>
             <!-- Quote 3 -->
             <div class="col-md-4" style="padding-left: 2px; padding-right: 2px;">
                 <div class="quote-container" id="quote-3" style="margin-bottom: 20px;">
                     <i class="fa fa-book-open fa-3x quote-icon" data-quote="Growing up, I took so many cues from books. They taught me most of what I knew about what people did, about how to behave. They were my teachers and my advisers" data-author="Neil Gaiman" data-title="The Ocean At The End Of The Lane (2013)"></i>
-                    <div class="quote-text quote-typing-animation"></div>
+                    <div class="quote-text"></div>
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
 
 <!-- JavaScript to handle the quote reveal -->
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+   document.addEventListener("DOMContentLoaded", function() {
     const quoteIcons = document.querySelectorAll('.quote-icon');
     
     quoteIcons.forEach(function(icon) {
@@ -55,12 +55,15 @@
             const quote = icon.getAttribute('data-quote');
             const author = icon.getAttribute('data-author');
             const title = icon.getAttribute('data-title');
-
+            
             // Clear existing text
             quoteText.innerHTML = '';
-
-            // Start typing effect for the quote
-            typeQuoteText(quoteText, `${quote} - ${author}`, 0);
+            
+            // Create full quote text with author and title
+            const fullText = `"${quote}" - ${author}, <em>${title}</em>`;
+            
+            // Start the typing effect
+            typeQuoteText(quoteText, fullText, 0);
         });
     });
 
@@ -69,7 +72,7 @@
             element.innerHTML += text.charAt(index);
             setTimeout(function() {
                 typeQuoteText(element, text, index + 1);
-            }, 100); // Adjust typing speed here
+            }, 50); // Adjust the typing speed here
         }
     }
 });
