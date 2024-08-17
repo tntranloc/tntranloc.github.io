@@ -61,12 +61,7 @@ collections:
     permalink: /activities/:title/
   posts:
     output: true
-  blog:
-    output: true
-    permalink: /:collection/:title/
-    folder: blog
-  writing:
-    output: true
+
 
 
 # Build settings
