@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: linear-gradient(to bottom, #{{ site.color.primary }} 0%, #ffffff 100%);
 }
 
 header .container {
