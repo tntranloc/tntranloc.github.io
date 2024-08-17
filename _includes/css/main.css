@@ -595,9 +595,9 @@ footer .footer-below {
     color: #333; /* Adjust to your preferred color */
     white-space: nowrap;
     overflow: hidden;
-    border-right: 2px solid; /* Cursor effect */
     display: inline-block; /* Keep the text inline to avoid width issues */
-    animation: quote-typing 3s steps(30, end), blink-quote-caret 0.75s step-end infinite;
+    animation: quote-typing 3s steps(30, end) forwards;
+    border-right: 2px solid; /* Cursor effect */
 }
 
 /* Typing effect animation */
@@ -606,11 +606,6 @@ footer .footer-below {
     to { max-width: 100%; }
 }
 
-/* Blinking caret animation */
-@keyframes blink-quote-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: #333; } /* Adjust color for the cursor */
-}
 
 /* Profile image styling */
 .profile-image {
