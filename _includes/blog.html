@@ -1,33 +1,58 @@
 <!-- Blog Section -->
-<section id="blog">
+<section id="blog-quotes" class="text-center">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Blog</h2>
+                <h2>Blog Quotes</h2>
                 <hr class="star-primary">
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 blog-item">
-                <div class="quote-container" data-quote="There are many people who come in and out of your life and who make a difference. There are deaths and births; there is despair and joy." data-author="Jennifer Metcalfe" data-title="Rethinking science communication models in practice (2019)">
-                    <i class="fa-solid fa-feather-alt fa-3x"></i>
+            <!-- Quote 1 -->
+            <div class="col-md-4">
+                <div class="quote-container" id="quote-1">
+                    <i class="fa fa-feather-alt fa-3x quote-icon" data-quote="There are many people who come in and out of your life and who make a difference..." data-author="Jennifer Metcalfe" data-title="Rethinking science communication models in practice (2019)"></i>
+                    <div class="quote-text"></div>
                 </div>
             </div>
-            <div class="col-md-4 blog-item">
-                <div class="quote-container" data-quote="It takes a village to raise a child and this PhD is as close to bearing a child as I’ll likely ever come." data-author="Rachael Gross" data-title="At a crossroads: African elephant conservation, climate change and community-based management (2023)">
-                    <i class="fa-solid fa-flask fa-3x"></i>
+            <!-- Quote 2 -->
+            <div class="col-md-4">
+                <div class="quote-container" id="quote-2">
+                    <i class="fa fa-leaf fa-3x quote-icon" data-quote="It takes a village to raise a child and this PhD is as close to bearing a child as I’ll likely ever come." data-author="Rachael Gross" data-title="At a crossroads: African elephant conservation, climate change and community-based management (2023)"></i>
+                    <div class="quote-text"></div>
                 </div>
             </div>
-            <div class="col-md-4 blog-item">
-                <div class="quote-container" data-quote="Your third quote here." data-author="Author Name" data-title="Title of the work (Year)">
-                    <i class="fa-solid fa-book-open fa-3x"></i>
+            <!-- Quote 3 -->
+            <div class="col-md-4">
+                <div class="quote-container" id="quote-3">
+                    <i class="fa fa-lightbulb fa-3x quote-icon" data-quote="Another inspiring quote..." data-author="Author Name" data-title="Title of the Work"></i>
+                    <div class="quote-text"></div>
                 </div>
             </div>
         </div>
-        <div class="row text-center">
+        <div class="row">
             <div class="col-lg-12">
-                <a href="https://yourseparatewebsite.com" target="_blank" class="btn btn-lg btn-outline">Visit Blog Website</a>
+                <a href="https://inkynote.github.io" class="btn btn-primary btn-lg">Visit the Full Blog</a>
             </div>
         </div>
     </div>
 </section>
+
+<!-- JavaScript to handle the quote reveal -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const icons = document.querySelectorAll(".quote-icon");
+
+        icons.forEach(icon => {
+            icon.addEventListener("click", function() {
+                const quote = this.getAttribute("data-quote");
+                const author = this.getAttribute("data-author");
+                const title = this.getAttribute("data-title");
+                const quoteText = this.nextElementSibling;
+
+                quoteText.innerHTML = `<p>${quote}</p><p><strong>${author}</strong><br>${title}</p>`;
+                quoteText.classList.toggle("show"); // Add a class to handle CSS animations if desired
+            });
+        });
+    });
+</script>
