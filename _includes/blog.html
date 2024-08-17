@@ -46,18 +46,33 @@
 <!-- JavaScript to handle the quote reveal -->
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        const icons = document.querySelectorAll(".quote-icon");
+    const quoteIcons = document.querySelectorAll('.quote-icon');
+    
+    quoteIcons.forEach(function(icon) {
+        icon.addEventListener('click', function() {
+            const quoteContainer = icon.closest('.quote-container');
+            const quoteText = quoteContainer.querySelector('.quote-text');
+            const quote = icon.getAttribute('data-quote');
+            const author = icon.getAttribute('data-author');
+            const title = icon.getAttribute('data-title');
 
-        icons.forEach(icon => {
-            icon.addEventListener("click", function() {
-                const quote = this.getAttribute("data-quote");
-                const author = this.getAttribute("data-author");
-                const title = this.getAttribute("data-title");
-                const quoteText = this.nextElementSibling;
+            // Clear existing text
+            quoteText.innerHTML = '';
 
-                quoteText.innerHTML = `<p>${quote}</p><p><strong>${author}</strong><br>${title}</p>`;
-                quoteText.classList.toggle("show"); // Add a class to handle CSS animations if desired
-            });
+            // Start typing effect for the quote
+            typeQuoteText(quoteText, `${quote} - ${author}`, 0);
         });
     });
+
+    function typeQuoteText(element, text, index) {
+        if (index < text.length) {
+            element.innerHTML += text.charAt(index);
+            setTimeout(function() {
+                typeQuoteText(element, text, index + 1);
+            }, 100); // Adjust typing speed here
+        }
+    }
+});
 </script>
+
+
