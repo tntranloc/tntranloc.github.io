@@ -943,37 +943,30 @@ footer .footer-below {
 }
 
 .quote-container {
+    margin-bottom: 30px;
     cursor: pointer;
 }
 
-.quote-container i {
-    color: #{{ site.color.primary }};
-}
-
-.quote-container:hover i {
-    color: #{{ site.color.secondary }};
-}
-
-/* Modal Quote Styling */
-.quote-modal-content {
-    padding: 30px;
-    text-align: center;
-}
-
-.quote-modal-content p {
-    font-size: 1.5em;
-    font-style: italic;
-}
-
-.quote-modal-content .quote-author {
+.quote-text {
+    display: none; /* Initially hidden */
     margin-top: 10px;
     font-size: 1.2em;
-    font-weight: bold;
+    color: #333;
+    transition: all 0.3s ease-in-out;
 }
 
-.quote-modal-content .quote-title {
+.quote-text.active {
+    display: block; /* Show when active */
+}
+
+.quote-author {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.quote-title {
+    font-style: italic;
     margin-top: 5px;
-    font-size: 1em;
-    font-weight: normal;
+    color: #888;
 }
 
