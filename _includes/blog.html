@@ -43,39 +43,32 @@
     </div>
 </section>
 
-<!-- JavaScript to handle the quote reveal -->
+<!-- JavaScript to handle the quote reveal with typing effect -->
 <script>
-   document.addEventListener("DOMContentLoaded", function() {
-    const quoteIcons = document.querySelectorAll('.quote-icon');
-    
-    quoteIcons.forEach(function(icon) {
-        icon.addEventListener('click', function() {
-            const quoteContainer = icon.closest('.quote-container');
-            const quoteText = quoteContainer.querySelector('.quote-text');
-            const quote = icon.getAttribute('data-quote');
-            const author = icon.getAttribute('data-author');
-            const title = icon.getAttribute('data-title');
-            
-            // Clear existing text
-            quoteText.innerHTML = '';
-            
-            // Create full quote text with author and title
-            const fullText = `"${quote}" - ${author}, <em>${title}</em>`;
-            
-            // Start the typing effect
-            typeQuoteText(quoteText, fullText, 0);
+    document.addEventListener("DOMContentLoaded", function() {
+        const icons = document.querySelectorAll(".quote-icon");
+
+        icons.forEach(icon => {
+            icon.addEventListener("click", function() {
+                const quote = this.getAttribute("data-quote");
+                const author = this.getAttribute("data-author");
+                const title = this.getAttribute("data-title");
+                const quoteText = this.nextElementSibling;
+
+                const fullText = `<p>"${quote}"</p><p><strong>${author}</strong><br>${title}</p>`;
+                quoteText.innerHTML = ''; // Clear any previous text
+
+                typeQuoteText(quoteText, fullText, 0);
+            });
         });
-    });
 
-    function typeQuoteText(element, text, index) {
-        if (index < text.length) {
-            element.innerHTML += text.charAt(index);
-            setTimeout(function() {
-                typeQuoteText(element, text, index + 1);
-            }, 50); // Adjust the typing speed here
+        function typeQuoteText(element, text, index) {
+            if (index < text.length) {
+                element.innerHTML += text.charAt(index);
+                setTimeout(function() {
+                    typeQuoteText(element, text, index + 1);
+                }, 50); // Adjust the typing speed here
+            }
         }
-    }
-});
+    });
 </script>
-
-
