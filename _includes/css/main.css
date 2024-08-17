@@ -974,6 +974,16 @@ footer .footer-below {
     transition: all 0.3s ease-in-out;
 }
 
+/* Optional: Add some style for a 'show' class if you toggle visibility */
+.quote-text.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.quote-text p {
+    margin: 0;
+}
+
 .quote-text.active {
     display: block; /* Show when active */
 }
