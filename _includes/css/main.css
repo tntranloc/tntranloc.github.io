@@ -989,3 +989,13 @@ footer .footer-below {
     color: #888;
 }
 
+.quote-image {
+    max-width: 80px; /* Adjust the size of the image */
+    margin-top: 10px; /* Space between the image and the text */
+    cursor: pointer; /* Show a pointer cursor on hover */
+    transition: transform 0.3s ease; /* Optional: Add a hover effect */
+}
+
+.quote-image:hover {
+    transform: scale(1.1); /* Slightly enlarge the image on hover */
+}
