@@ -1016,9 +1016,3 @@ footer .footer-below {
     transform: scale(1.1); /* Slightly enlarge the image on hover */
 }
 
-
-.section-colored {
-    background-color: #{{ site.color.primary }}; /* or whatever color you want */
-    color: #fff; /* Adjust text color for better contrast */
-    padding: 100px 0; /* Add padding if needed */
-}
