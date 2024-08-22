@@ -7,5 +7,6 @@ img: event.png
 post-img: event-full.1.png
 alt: image-alt
 click: Click on the image to zoom in
+workplace: <a href="https://empseb29.pages.ist.ac.at"> EMPSEB29 </a> 
 icon: "fa-solid fa-people-roof"
 ---
