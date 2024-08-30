@@ -1,4 +1,4 @@
-Freelancer Jekyll theme  
+Edited from template Freelancer Jekyll theme  
 =========================
 
 Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
@@ -7,6 +7,7 @@ Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/te
  - Place a image in `/img/portfolio/`
  - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
  - Create posts to display your projects. Use the follow as an example:
+
 ```txt
 ---
 layout: default
@@ -21,6 +22,9 @@ description: The description of the project
 
 ---
 ```
+ - I created an Activity section similarly to Portfolio
+ - and also a Blog section where you click and text reveal, initially intended for blog post
+   
 
 ## Demo
 View this jekyll theme in action [here](https://jeromelachaud.com/freelancer-theme)
@@ -30,3 +34,6 @@ View this jekyll theme in action [here](https://jeromelachaud.com/freelancer-the
 
 ---------
 For more details, read the [documentation](http://jekyllrb.com/)
+
+
+
