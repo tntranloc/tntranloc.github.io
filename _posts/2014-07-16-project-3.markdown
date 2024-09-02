@@ -5,6 +5,7 @@ title: BSc Thesis
 subtitle: <i>KUODA</i> transcription factors and their interactions with <i>TOPLESS/TOPLESS-related</i> corepressors in <i>Arabidopsis thaliana</i>
 date: 2024-07-28
 img: athaliana.png
+post-img: thaliana.png
 alt: image-alt
 click: Click on the image to zoom in or download
 project-date: May 2021
