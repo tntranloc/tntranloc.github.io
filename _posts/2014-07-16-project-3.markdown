@@ -8,8 +8,4 @@ img: athaliana.png
 post-img: thaliana.png
 alt: image-alt
 click: Click on the image to zoom in or download
-project-date: May 2021
-workplace: Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Gatersleben, Germany
-skills: vector cloning (E.coli system), primer design, Sanger sequencing, Bimolecular fluorescence complementation (BiFC), yeast-two-hybrid transformation, chloroplast transformation
-description: With the supervision of Dr Jozefus Schippers and the group, I had a six-month real-life intensive molecular laboratory research. I learned to characterise a novel transcription factor called KUODA, which was presumably responsible for cell elongation during seed development. I was mainly involved in cloning using various approaches and sequencing five members of KUODA family. The study was performed on model plant Arabidopsis thaliana, which was to be extrapolated into sugar beet system later on. 
 ---
